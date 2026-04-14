@@ -31,7 +31,14 @@ Criar um ambiente isolado para estudo e execução de containers Docker, simulan
 
 ## 📸 Demonstração
 
+### 🖥️ Máquina Virtual em execução
+![VM rodando no VirtualBox](./assets/vm.png)
 
+### 🐧 Terminal Linux (Ubuntu Server)
+![Execução de comandos no Ubuntu Server mostrando usuário, hostname e informações do sistema](./assets/terminal-ubuntu.png)
+<!--
+### 🐳 Docker em execução
+![Docker funcionando](./assets/docker.png)
 
 ## 🐳 Teste com Docker
 
@@ -45,3 +52,14 @@ docker run hello-world
 * Gerenciamento de pacotes com apt
 * Conceitos de virtualização
 * Uso de containers com Docker
+-->
+
+🧱 📌 🛠️ Tecnologias e Versões
+
+- VirtualBox: 7.x (Host - Windows)
+- Ubuntu Server: 24.04.4 LTS
+- Kernel Linux: 6.8.0-110-generic
+- Identificação do sistema via: /etc/os-release (padrão moderno)
+<!-- 
+- Docker: 24.0.7
+-->
